@@ -45,9 +45,6 @@ To get started with Udaan, follow these steps:
 4. Configure the serverless backend using Appwrite.
 5. Start the development server.
 
-## Contribution Guidelines
-
-We welcome contributions from the open-source community to make Udaan even better. If you'd like to contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## License
 
