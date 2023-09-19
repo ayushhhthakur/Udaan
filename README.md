@@ -39,7 +39,7 @@ Udaan is built using a variety of technologies to provide a robust and user-frie
 
 To get started with Udaan, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/Udaan.git`
+1. Clone the repository: `git clone https://github.com/ayushhhthakur/Udaan.git`
 2. Install dependencies for the frontend and backend components.
 3. Set up the database using MySQL.
 4. Configure the serverless backend using Appwrite.
