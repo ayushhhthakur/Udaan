@@ -3,31 +3,35 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <View style={styles.container}>
-      <TouchableOpacity style={styles.icon}>
-        <Image
-          source={require("../../assets/settings.png")}
-          style={styles.iconImage}
-        />
-      </TouchableOpacity>
 
-      <TouchableOpacity>
-        <Image
-          style={styles.logo}
-          source={require("../../assets/logo.png")}
-        />
-      </TouchableOpacity>
-  
-      <TouchableOpacity style={styles.icon}>
-        <View style={styles.unredBadge}>
-          <Text style={styles.unredBadgeText}>11</Text>
-        </View>
-        <Image
-          source={require("../../assets/message.png")}
-          style={styles.iconImage}
-        />
-      </TouchableOpacity>
+    <View style={styles.container}>
+
+        <TouchableOpacity style={styles.icon}>
+          <Image
+            source={require("../../assets/settings.png")}
+            style={styles.iconImage}
+          />
+        </TouchableOpacity>
+
+        <TouchableOpacity>
+          <Image
+            style={styles.logo}
+            source={require("../../assets/logo.png")}
+          />
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.icon}>
+          <View style={styles.unredBadge}>
+            <Text style={styles.unredBadgeText}>11</Text>
+          </View>
+          <Image
+            source={require("../../assets/message.png")}
+            style={styles.iconImage}
+          />
+        </TouchableOpacity>
+
     </View>
+
   )
 }
 
